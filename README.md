@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
-- Design files URL: [Files URL]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/sunnyside-landing-page-with-html5-css3-grid-and-flexbox-vanilla-js-7dKnvZno7)
+- Live Site URL: [Live site](https://juancfs.github.io/sunnyside-agency-landing-page/)
+- Design files URL: [Design files URL](https://github.com/juancfs/sunnyside-agency-landing-page/tree/main/design)
 
 ## My process
 
