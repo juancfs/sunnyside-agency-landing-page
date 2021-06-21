@@ -1,0 +1,171 @@
+/* --- Mobile styles --- */
+
+/* Navigation bar */
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle-btn {
+    border: none;
+    background: none;
+}
+
+.triangle {
+    display: inline-block;
+	width: 0;
+	height: 0;
+	border-left: 1.2rem solid transparent;
+	border-right: 1.2rem solid white;
+	border-top: 1.2rem solid transparent;
+    position: absolute;
+    top: 3.9rem;
+    right: 1.3rem;
+    visibility: hidden;
+}
+
+.header-menu {
+    background-color: white;
+    position: absolute;
+    padding: 2rem;
+    margin-top: 4rem;
+    visibility: hidden;
+    width: calc(100% - 2.3rem); /* makes the menu have a "fixed" margin with respect to viewport's edges */
+}
+
+.header-menu li {
+    padding: 0.8rem;
+}
+
+.header-menu a {
+    color: hsl(232, 10%, 55%);
+}
+
+.contact-item {
+    margin-top: 0.8rem;
+}
+
+.contact-item a {
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 20px 20px 20px 20px;
+    font-family: "Fraunces";
+    font-size: 0.8em;
+    color: black;
+    padding: 0.8rem 1.2rem;
+    text-transform: uppercase; 
+}
+
+/* Makes menu appear and disappear */
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+/* Footer section */
+
+footer {
+    background-color: hsl(167, 44%, 70%);
+    padding: 3rem 0;
+}
+
+.logo-footer {
+    color: hsl(161, 21%, 35%);
+    font-size: 2em;
+    font-weight: 900;
+}
+
+footer li {
+    display: inline-block;
+}
+
+.footer-menu ul {
+    margin-top: 3rem;
+}
+
+.footer-menu li {
+    margin: 0 3%;
+}
+
+.footer-menu li a {
+    color: hsl(168, 34%, 41%);
+}
+
+.footer-social li{
+    margin: 3rem 1%;
+}
+
+.attribution a {
+    color: black;
+    text-decoration: underline;
+}
+
+/* --- Desktop styles --- */
+
+@media (min-width: 1024px) {
+    /* Navigation bar */
+    .toggle-btn {
+        display: none;
+    }
+
+    .triangle {
+        display: none;
+    }
+
+    .logo-header {
+        width: 12rem;
+    }
+
+    .header-menu {
+        background-color: transparent;
+        position: static;
+        visibility: visible;
+        margin-top: 0;
+        padding: 0;
+        text-align: right;
+    }
+
+    .header-menu li {
+        display: inline-block;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .header-menu a {
+        color: white;
+    }
+
+    .header-menu a:hover {
+        color: hsla(0, 0%, 100%, 0.3);
+        transition: color 0.3s;
+    }
+
+    .contact-item {
+        margin-top: 0;
+    }
+
+    .contact-item a {
+        background-color: white;
+        color: black;
+    }
+
+    .contact-item a:hover {
+        background-color: hsla(0, 0%, 100%, 0.3);
+        color: white;
+        transition: color 0.3s, background-color 0.3s;
+    }
+
+    /* Footer section */
+
+    .footer-menu a:hover {
+        color: white;
+        transition: color 0.3s;
+    }
+
+    .footer-social a:hover {
+        filter: brightness(0) invert(1);
+        transition: filter 0.3s;
+    }
+}
