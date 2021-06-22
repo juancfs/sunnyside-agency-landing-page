@@ -164,6 +164,10 @@ footer li {
         transition: color 0.3s;
     }
 
+    .footer-social img {
+        width: 1.5vw;
+    }
+
     .footer-social a:hover {
         filter: brightness(0) invert(1);
         transition: filter 0.3s;

@@ -183,6 +183,10 @@ main > * {
 /* --- Desktop style --- */
 
 @media (min-width: 1024px) {
+    body {
+        font-size: 1.4vw;
+    }
+
     header {
         background-image: url("../images/desktop/image-header.jpg");
         padding: 1rem 1rem 4rem;
@@ -231,30 +235,33 @@ main > * {
     }
 
     .transform, .stand-out {
+        font-size: 1.6vw;
         text-align: left;
-        padding: 22% 12% 0;
-    }
-
-    .transform h1, .stand-out h1 {
-        margin-top: 9%;
+        padding: 15% 12% 15%;
     }
 
     .graphic {
         background-image: url("../images/desktop/image-graphic-design.jpg");
+        padding: 50% 10% 5%;
     }
 
     .photography {
         background-image: url("../images/desktop/image-photography.jpg");
+        padding: 50% 10% 5%;
     }
 
     .graphic h1, .photography h1 {
-        margin-top: 50%;
+        margin-top: 0;
     }
 
     .testimonials-flex {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .testimonials {
+        padding: 6rem 4rem;
     }
 
     .testimonials .testimonial {
