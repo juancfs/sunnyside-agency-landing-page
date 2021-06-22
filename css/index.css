@@ -1,4 +1,4 @@
-h1, .name, main a {
+h2, .name, main a {
     font-family: "Fraunces";
     font-weight: 900;
 }
@@ -30,7 +30,7 @@ header {
 .header-motto {
     color: white;
     font-family: "Fraunces";
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 900;
     margin-top: 4rem;
     text-transform: uppercase;
@@ -124,7 +124,7 @@ main > * {
     color: hsl(198, 62%, 26%);
 }
 
-.graphic h1, .photography h1 {
+.graphic h2, .photography h2 {
     margin-top: 99%;
 }
 
@@ -135,7 +135,7 @@ main > * {
     line-height: 1.7;
 }
 
-.testimonials h1 {
+.testimonials h2 {
     color: hsl(210, 4%, 67%);
     font-size: 0.9em;
     text-transform: uppercase;
@@ -250,7 +250,7 @@ main > * {
         padding: 50% 10% 5%;
     }
 
-    .graphic h1, .photography h1 {
+    .graphic h2, .photography h2 {
         margin-top: 0;
     }
 
